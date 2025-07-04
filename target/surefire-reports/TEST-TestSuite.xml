@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="17.222" tests="2" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="17"/>
+    <property name="webdriver.chrome.driver" value="C:\Users\CIPL1282\.cache\selenium\chromedriver\win64\138.0.7204.92\chromedriver.exe"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\CIPL1282\eclipse-workspace\OHRM_orangeHRM\target\test-classes;C:\Users\CIPL1282\eclipse-workspace\OHRM_orangeHRM\target\classes;C:\Users\CIPL1282\.m2\repository\org\seleniumhq\selenium\selenium-java\4.33.0\selenium-java-4.33.0.jar;C:\Users\CIPL1282\.m2\repository\org\seleniumhq\selenium\selenium-api\4.33.0\selenium-api-4.33.0.jar;C:\Users\CIPL1282\.m2\repository\org\jspecify\jspecify\1.0.0\jspecify-1.0.0.jar;C:\Users\CIPL1282\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.33.0\selenium-chrome-driver-4.33.0.jar;C:\Users\CIPL1282\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\CIPL1282\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.33.0\selenium-chromium-driver-4.33.0.jar;C:\Users\CIPL1282\.m2\repository\org\seleniumhq\selenium\selenium-json\4.33.0\selenium-json-4.33.0.jar;C:\Users\CIPL1282\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.33.0\selenium-manager-4.33.0.jar;C:\Users\CIPL1282\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v135\4.33.0\selenium-devtools-v135-4.33.0.jar;C:\Users\CIPL1282\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v136\4.33.0\selenium-devtools-v136-4.33.0.jar;C:\Users\CIPL1282\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v137\4.33.0\selenium-devtools-v137-4.33.0.jar;C:\Users\CIPL1282\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.33.0\selenium-edge-driver-4.33.0.jar;C:\Users\CIPL1282\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.33.0\selenium-firefox-driver-4.33.0.jar;C:\Users\CIPL1282\.m2\repository\org\seleniumhq\selenium\selenium-http\4.33.0\selenium-http-4.33.0.jar;C:\Users\CIPL1282\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.33.0\selenium-ie-driver-4.33.0.jar;C:\Users\CIPL1282\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.33.0\selenium-remote-driver-4.33.0.jar;C:\Users\CIPL1282\.m2\repository\com\google\guava\guava\33.4.8-jre\guava-33.4.8-jre.jar;C:\Users\CIPL1282\.m2\repository\com\google\guava\failureaccess\1.0.3\failureaccess-1.0.3.jar;C:\Users\CIPL1282\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\CIPL1282\.m2\repository\com\google\j2objc\j2objc-annotations\3.0.0\j2objc-annotations-3.0.0.jar;C:\Users\CIPL1282\.m2\repository\io\opentelemetry\opentelemetry-api\1.50.0\opentelemetry-api-1.50.0.jar;C:\Users\CIPL1282\.m2\repository\io\opentelemetry\opentelemetry-context\1.50.0\opentelemetry-context-1.50.0.jar;C:\Users\CIPL1282\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.50.0\opentelemetry-exporter-logging-1.50.0.jar;C:\Users\CIPL1282\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.50.0\opentelemetry-sdk-common-1.50.0.jar;C:\Users\CIPL1282\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.50.0\opentelemetry-sdk-extension-autoconfigure-spi-1.50.0.jar;C:\Users\CIPL1282\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.50.0\opentelemetry-sdk-extension-autoconfigure-1.50.0.jar;C:\Users\CIPL1282\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.50.0\opentelemetry-sdk-trace-1.50.0.jar;C:\Users\CIPL1282\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.50.0\opentelemetry-sdk-1.50.0.jar;C:\Users\CIPL1282\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.50.0\opentelemetry-sdk-metrics-1.50.0.jar;C:\Users\CIPL1282\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.50.0\opentelemetry-sdk-logs-1.50.0.jar;C:\Users\CIPL1282\.m2\repository\net\bytebuddy\byte-buddy\1.17.5\byte-buddy-1.17.5.jar;C:\Users\CIPL1282\.m2\repository\org\seleniumhq\selenium\selenium-os\4.33.0\selenium-os-4.33.0.jar;C:\Users\CIPL1282\.m2\repository\org\apache\commons\commons-exec\1.4.0\commons-exec-1.4.0.jar;C:\Users\CIPL1282\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.33.0\selenium-safari-driver-4.33.0.jar;C:\Users\CIPL1282\.m2\repository\org\seleniumhq\selenium\selenium-support\4.33.0\selenium-support-4.33.0.jar;C:\Users\CIPL1282\.m2\repository\io\github\bonigarcia\webdrivermanager\6.1.0\webdrivermanager-6.1.0.jar;C:\Users\CIPL1282\.m2\repository\org\slf4j\slf4j-api\2.0.17\slf4j-api-2.0.17.jar;C:\Users\CIPL1282\.m2\repository\com\google\code\gson\gson\2.13.0\gson-2.13.0.jar;C:\Users\CIPL1282\.m2\repository\com\google\errorprone\error_prone_annotations\2.37.0\error_prone_annotations-2.37.0.jar;C:\Users\CIPL1282\.m2\repository\com\github\docker-java\docker-java\3.5.0\docker-java-3.5.0.jar;C:\Users\CIPL1282\.m2\repository\com\github\docker-java\docker-java-core\3.5.0\docker-java-core-3.5.0.jar;C:\Users\CIPL1282\.m2\repository\com\github\docker-java\docker-java-api\3.5.0\docker-java-api-3.5.0.jar;C:\Users\CIPL1282\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.18.3\jackson-annotations-2.18.3.jar;C:\Users\CIPL1282\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.18.3\jackson-databind-2.18.3.jar;C:\Users\CIPL1282\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.18.3\jackson-core-2.18.3.jar;C:\Users\CIPL1282\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar;C:\Users\CIPL1282\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.5.0\docker-java-transport-httpclient5-3.5.0.jar;C:\Users\CIPL1282\.m2\repository\com\github\docker-java\docker-java-transport\3.5.0\docker-java-transport-3.5.0.jar;C:\Users\CIPL1282\.m2\repository\net\java\dev\jna\jna\5.17.0\jna-5.17.0.jar;C:\Users\CIPL1282\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\Users\CIPL1282\.m2\repository\org\apache\commons\commons-compress\1.27.1\commons-compress-1.27.1.jar;C:\Users\CIPL1282\.m2\repository\commons-codec\commons-codec\1.17.1\commons-codec-1.17.1.jar;C:\Users\CIPL1282\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.4.3\httpclient5-5.4.3.jar;C:\Users\CIPL1282\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.3.4\httpcore5-5.3.4.jar;C:\Users\CIPL1282\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.3.4\httpcore5-h2-5.3.4.jar;C:\Users\CIPL1282\.m2\repository\net\java\dev\jna\jna-platform\5.13.0\jna-platform-5.13.0.jar;C:\Users\CIPL1282\.m2\repository\org\testng\testng\7.10.0\testng-7.10.0.jar;C:\Users\CIPL1282\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\CIPL1282\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\CIPL1282\.m2\repository\org\apache\logging\log4j\log4j-api\2.20.0\log4j-api-2.20.0.jar;C:\Users\CIPL1282\.m2\repository\org\apache\logging\log4j\log4j-core\2.20.0\log4j-core-2.20.0.jar;C:\Users\CIPL1282\.m2\repository\org\apache\logging\log4j\log4j-slf4j-impl\2.25.0\log4j-slf4j-impl-2.25.0.jar;C:\Users\CIPL1282\.m2\repository\commons-io\commons-io\2.19.0\commons-io-2.19.0.jar;C:\Users\CIPL1282\.m2\repository\com\aventstack\extentreports\5.1.2\extentreports-5.1.2.jar;C:\Users\CIPL1282\.m2\repository\io\reactivex\rxjava3\rxjava\3.1.6\rxjava-3.1.6.jar;C:\Users\CIPL1282\.m2\repository\org\reactivestreams\reactive-streams\1.0.4\reactive-streams-1.0.4.jar;C:\Users\CIPL1282\.m2\repository\org\freemarker\freemarker\2.3.32\freemarker-2.3.32.jar;C:\Users\CIPL1282\.m2\repository\org\projectlombok\lombok\1.18.26\lombok-1.18.26.jar;C:\Users\CIPL1282\.m2\repository\org\apache\commons\commons-lang3\3.17.0\commons-lang3-3.17.0.jar;"/>
+    <property name="java.vm.vendor" value="Eclipse Adoptium"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://adoptium.net/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.boot.library.path" value="C:\Users\CIPL1282\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.9.v20231028-0858\jre\bin"/>
+    <property name="sun.java.command" value="C:\Users\CIPL1282\AppData\Local\Temp\surefire4769436055314380357\surefirebooter-20250704120137603_3.jar C:\Users\CIPL1282\AppData\Local\Temp\surefire4769436055314380357 2025-07-04T12-01-37_122-jvmRun1 surefire-20250704120137603_1tmp surefire_0-20250704120137603_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\CIPL1282\eclipse-workspace\OHRM_orangeHRM\target\test-classes;C:\Users\CIPL1282\eclipse-workspace\OHRM_orangeHRM\target\classes;C:\Users\CIPL1282\.m2\repository\org\seleniumhq\selenium\selenium-java\4.33.0\selenium-java-4.33.0.jar;C:\Users\CIPL1282\.m2\repository\org\seleniumhq\selenium\selenium-api\4.33.0\selenium-api-4.33.0.jar;C:\Users\CIPL1282\.m2\repository\org\jspecify\jspecify\1.0.0\jspecify-1.0.0.jar;C:\Users\CIPL1282\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.33.0\selenium-chrome-driver-4.33.0.jar;C:\Users\CIPL1282\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\CIPL1282\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.33.0\selenium-chromium-driver-4.33.0.jar;C:\Users\CIPL1282\.m2\repository\org\seleniumhq\selenium\selenium-json\4.33.0\selenium-json-4.33.0.jar;C:\Users\CIPL1282\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.33.0\selenium-manager-4.33.0.jar;C:\Users\CIPL1282\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v135\4.33.0\selenium-devtools-v135-4.33.0.jar;C:\Users\CIPL1282\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v136\4.33.0\selenium-devtools-v136-4.33.0.jar;C:\Users\CIPL1282\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v137\4.33.0\selenium-devtools-v137-4.33.0.jar;C:\Users\CIPL1282\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.33.0\selenium-edge-driver-4.33.0.jar;C:\Users\CIPL1282\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.33.0\selenium-firefox-driver-4.33.0.jar;C:\Users\CIPL1282\.m2\repository\org\seleniumhq\selenium\selenium-http\4.33.0\selenium-http-4.33.0.jar;C:\Users\CIPL1282\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.33.0\selenium-ie-driver-4.33.0.jar;C:\Users\CIPL1282\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.33.0\selenium-remote-driver-4.33.0.jar;C:\Users\CIPL1282\.m2\repository\com\google\guava\guava\33.4.8-jre\guava-33.4.8-jre.jar;C:\Users\CIPL1282\.m2\repository\com\google\guava\failureaccess\1.0.3\failureaccess-1.0.3.jar;C:\Users\CIPL1282\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\CIPL1282\.m2\repository\com\google\j2objc\j2objc-annotations\3.0.0\j2objc-annotations-3.0.0.jar;C:\Users\CIPL1282\.m2\repository\io\opentelemetry\opentelemetry-api\1.50.0\opentelemetry-api-1.50.0.jar;C:\Users\CIPL1282\.m2\repository\io\opentelemetry\opentelemetry-context\1.50.0\opentelemetry-context-1.50.0.jar;C:\Users\CIPL1282\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.50.0\opentelemetry-exporter-logging-1.50.0.jar;C:\Users\CIPL1282\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.50.0\opentelemetry-sdk-common-1.50.0.jar;C:\Users\CIPL1282\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.50.0\opentelemetry-sdk-extension-autoconfigure-spi-1.50.0.jar;C:\Users\CIPL1282\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.50.0\opentelemetry-sdk-extension-autoconfigure-1.50.0.jar;C:\Users\CIPL1282\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.50.0\opentelemetry-sdk-trace-1.50.0.jar;C:\Users\CIPL1282\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.50.0\opentelemetry-sdk-1.50.0.jar;C:\Users\CIPL1282\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.50.0\opentelemetry-sdk-metrics-1.50.0.jar;C:\Users\CIPL1282\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.50.0\opentelemetry-sdk-logs-1.50.0.jar;C:\Users\CIPL1282\.m2\repository\net\bytebuddy\byte-buddy\1.17.5\byte-buddy-1.17.5.jar;C:\Users\CIPL1282\.m2\repository\org\seleniumhq\selenium\selenium-os\4.33.0\selenium-os-4.33.0.jar;C:\Users\CIPL1282\.m2\repository\org\apache\commons\commons-exec\1.4.0\commons-exec-1.4.0.jar;C:\Users\CIPL1282\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.33.0\selenium-safari-driver-4.33.0.jar;C:\Users\CIPL1282\.m2\repository\org\seleniumhq\selenium\selenium-support\4.33.0\selenium-support-4.33.0.jar;C:\Users\CIPL1282\.m2\repository\io\github\bonigarcia\webdrivermanager\6.1.0\webdrivermanager-6.1.0.jar;C:\Users\CIPL1282\.m2\repository\org\slf4j\slf4j-api\2.0.17\slf4j-api-2.0.17.jar;C:\Users\CIPL1282\.m2\repository\com\google\code\gson\gson\2.13.0\gson-2.13.0.jar;C:\Users\CIPL1282\.m2\repository\com\google\errorprone\error_prone_annotations\2.37.0\error_prone_annotations-2.37.0.jar;C:\Users\CIPL1282\.m2\repository\com\github\docker-java\docker-java\3.5.0\docker-java-3.5.0.jar;C:\Users\CIPL1282\.m2\repository\com\github\docker-java\docker-java-core\3.5.0\docker-java-core-3.5.0.jar;C:\Users\CIPL1282\.m2\repository\com\github\docker-java\docker-java-api\3.5.0\docker-java-api-3.5.0.jar;C:\Users\CIPL1282\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.18.3\jackson-annotations-2.18.3.jar;C:\Users\CIPL1282\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.18.3\jackson-databind-2.18.3.jar;C:\Users\CIPL1282\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.18.3\jackson-core-2.18.3.jar;C:\Users\CIPL1282\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar;C:\Users\CIPL1282\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.5.0\docker-java-transport-httpclient5-3.5.0.jar;C:\Users\CIPL1282\.m2\repository\com\github\docker-java\docker-java-transport\3.5.0\docker-java-transport-3.5.0.jar;C:\Users\CIPL1282\.m2\repository\net\java\dev\jna\jna\5.17.0\jna-5.17.0.jar;C:\Users\CIPL1282\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\Users\CIPL1282\.m2\repository\org\apache\commons\commons-compress\1.27.1\commons-compress-1.27.1.jar;C:\Users\CIPL1282\.m2\repository\commons-codec\commons-codec\1.17.1\commons-codec-1.17.1.jar;C:\Users\CIPL1282\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.4.3\httpclient5-5.4.3.jar;C:\Users\CIPL1282\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.3.4\httpcore5-5.3.4.jar;C:\Users\CIPL1282\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.3.4\httpcore5-h2-5.3.4.jar;C:\Users\CIPL1282\.m2\repository\net\java\dev\jna\jna-platform\5.13.0\jna-platform-5.13.0.jar;C:\Users\CIPL1282\.m2\repository\org\testng\testng\7.10.0\testng-7.10.0.jar;C:\Users\CIPL1282\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\CIPL1282\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\CIPL1282\.m2\repository\org\apache\logging\log4j\log4j-api\2.20.0\log4j-api-2.20.0.jar;C:\Users\CIPL1282\.m2\repository\org\apache\logging\log4j\log4j-core\2.20.0\log4j-core-2.20.0.jar;C:\Users\CIPL1282\.m2\repository\org\apache\logging\log4j\log4j-slf4j-impl\2.25.0\log4j-slf4j-impl-2.25.0.jar;C:\Users\CIPL1282\.m2\repository\commons-io\commons-io\2.19.0\commons-io-2.19.0.jar;C:\Users\CIPL1282\.m2\repository\com\aventstack\extentreports\5.1.2\extentreports-5.1.2.jar;C:\Users\CIPL1282\.m2\repository\io\reactivex\rxjava3\rxjava\3.1.6\rxjava-3.1.6.jar;C:\Users\CIPL1282\.m2\repository\org\reactivestreams\reactive-streams\1.0.4\reactive-streams-1.0.4.jar;C:\Users\CIPL1282\.m2\repository\org\freemarker\freemarker\2.3.32\freemarker-2.3.32.jar;C:\Users\CIPL1282\.m2\repository\org\projectlombok\lombok\1.18.26\lombok-1.18.26.jar;C:\Users\CIPL1282\.m2\repository\org\apache\commons\commons-lang3\3.17.0\commons-lang3-3.17.0.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\CIPL1282"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2023-10-17"/>
+    <property name="java.home" value="C:\Users\CIPL1282\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.9.v20231028-0858\jre"/>
+    <property name="file.separator" value="\"/>
+    <property name="style.color" value="always"/>
+    <property name="basedir" value="C:\Users\CIPL1282\eclipse-workspace\OHRM_orangeHRM"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\CIPL1282\AppData\Local\Temp\surefire4769436055314380357\surefirebooter-20250704120137603_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="17.0.9+9"/>
+    <property name="webdriver.edge.driver" value="C:\Users\CIPL1282\.cache\selenium\msedgedriver\win64\138.0.3351.65\msedgedriver.exe"/>
+    <property name="user.name" value="CIPL1282"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Temurin-17.0.9+9"/>
+    <property name="localRepository" value="C:\Users\CIPL1282\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/adoptium/adoptium-support/issues"/>
+    <property name="java.io.tmpdir" value="C:\Users\CIPL1282\AppData\Local\Temp\"/>
+    <property name="java.version" value="17.0.9"/>
+    <property name="user.dir" value="C:\Users\CIPL1282\eclipse-workspace\OHRM_orangeHRM"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Users\CIPL1282\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.9.v20231028-0858\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Users/CIPL1282/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_23.0.2.v20250131-0604/jre/bin/server;C:/Users/CIPL1282/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_23.0.2.v20250131-0604/jre/bin;C:\Program Files\Java\jdk-17\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\apache-maven-3.9.10\bin;C:\Users\CIPL1282\AppData\Local\Programs\Python\Python312\Scripts\;C:\Users\CIPL1282\AppData\Local\Programs\Python\Python312\;C:\Users\CIPL1282\AppData\Local\Programs\Python\Launcher\;C:\Users\CIPL1282\AppData\Local\Microsoft\WindowsApps;C:\Users\CIPL1282\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\CIPL1282\AppData\Roaming\npm;C:\Users\CIPL1282\AppData\Local\GitHubDesktop\bin;C:\Users\CIPL1282\AppData\Local\Programs\Git\cmd;C:\Users\CIPL1282\.dotnet\tools;C:\Users\CIPL1282\AppData\Local\Programs\cursor\resources\app\bin;C:\Users\CIPL1282\Desktop;;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Eclipse Adoptium"/>
+    <property name="java.vm.version" value="17.0.9+9"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="61.0"/>
+  </properties>
+  <testcase name="T001_VerifyLoginPage" classname="testcases.verifyLoginPageTest" time="2.535">
+    <system-out><![CDATA[DEBUG StatusConsoleListener Apache Log4j Core 2.20 initializing configuration XmlConfiguration[location=C:\Users\CIPL1282\eclipse-workspace\OHRM_orangeHRM\target\test-classes\log4j2.xml]
+DEBUG StatusConsoleListener PluginManager 'Core' found 130 plugins
+DEBUG StatusConsoleListener PluginManager 'Level' found 0 plugins
+DEBUG StatusConsoleListener Building Plugin[name=property, class=org.apache.logging.log4j.core.config.Property].
+DEBUG StatusConsoleListener PluginManager 'TypeConverter' found 26 plugins
+DEBUG StatusConsoleListener createProperty(name="basePath", value="./logs", Configuration(C:\Users\CIPL1282\eclipse-workspace\OHRM_orangeHRM\target\test-classes\log4j2.xml))
+DEBUG StatusConsoleListener Building Plugin[name=properties, class=org.apache.logging.log4j.core.config.PropertiesPlugin].
+DEBUG StatusConsoleListener configureSubstitutor(={basePath=./logs}, Configuration(C:\Users\CIPL1282\eclipse-workspace\OHRM_orangeHRM\target\test-classes\log4j2.xml))
+DEBUG StatusConsoleListener PluginManager 'Lookup' found 16 plugins
+DEBUG StatusConsoleListener Building Plugin[name=layout, class=org.apache.logging.log4j.core.layout.PatternLayout].
+DEBUG StatusConsoleListener PatternLayout$Builder(pattern="%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n", PatternSelector=null, Configuration(C:\Users\CIPL1282\eclipse-workspace\OHRM_orangeHRM\target\test-classes\log4j2.xml), Replace=null, charset="null", alwaysWriteExceptions="null", disableAnsi="null", noConsoleNoAnsi="null", header="null", footer="null")
+DEBUG StatusConsoleListener PluginManager 'Converter' found 45 plugins
+DEBUG StatusConsoleListener Building Plugin[name=appender, class=org.apache.logging.log4j.core.appender.ConsoleAppender].
+DEBUG StatusConsoleListener ConsoleAppender$Builder(target="SYSTEM_OUT", follow="null", direct="null", bufferedIo="null", bufferSize="null", immediateFlush="null", ignoreExceptions="null", PatternLayout(%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n), name="Console", Configuration(C:\Users\CIPL1282\eclipse-workspace\OHRM_orangeHRM\target\test-classes\log4j2.xml), Filter=null, ={})
+DEBUG StatusConsoleListener Starting OutputStreamManager SYSTEM_OUT.false.false
+DEBUG StatusConsoleListener Building Plugin[name=layout, class=org.apache.logging.log4j.core.layout.PatternLayout].
+DEBUG StatusConsoleListener PatternLayout$Builder(pattern=""%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"", PatternSelector=null, Configuration(C:\Users\CIPL1282\eclipse-workspace\OHRM_orangeHRM\target\test-classes\log4j2.xml), Replace=null, charset="null", alwaysWriteExceptions="null", disableAnsi="null", noConsoleNoAnsi="null", header="null", footer="null")
+DEBUG StatusConsoleListener Building Plugin[name=TimeBasedTriggeringPolicy, class=org.apache.logging.log4j.core.appender.rolling.TimeBasedTriggeringPolicy].
+DEBUG StatusConsoleListener TimeBasedTriggeringPolicy$Builder(interval="null", modulate="null", maxRandomDelay="null")
+DEBUG StatusConsoleListener Building Plugin[name=SizeBasedTriggeringPolicy, class=org.apache.logging.log4j.core.appender.rolling.SizeBasedTriggeringPolicy].
+DEBUG StatusConsoleListener createPolicy(size="10 MB")
+DEBUG StatusConsoleListener Building Plugin[name=Policies, class=org.apache.logging.log4j.core.appender.rolling.CompositeTriggeringPolicy].
+DEBUG StatusConsoleListener createPolicy(={TimeBasedTriggeringPolicy(nextRolloverMillis=0, interval=1, modulate=false), SizeBasedTriggeringPolicy(size=10485760)})
+DEBUG StatusConsoleListener Building Plugin[name=appender, class=org.apache.logging.log4j.core.appender.RollingFileAppender].
+DEBUG StatusConsoleListener RollingFileAppender$Builder(fileName="./logs/automation.log", filePattern="./logs/automation-%d{MM-dd-yyyy}-%i.log.gz", append="null", locking="null", Policies(CompositeTriggeringPolicy(policies=[TimeBasedTriggeringPolicy(nextRolloverMillis=0, interval=1, modulate=false), SizeBasedTriggeringPolicy(size=10485760)])), Strategy=null, advertise="null", advertiseUri="null", createOnDemand="null", filePermissions="null", fileOwner="null", fileGroup="null", bufferedIo="null", bufferSize="null", immediateFlush="null", ignoreExceptions="null", PatternLayout("%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"), name="RollingFile", Configuration(C:\Users\CIPL1282\eclipse-workspace\OHRM_orangeHRM\target\test-classes\log4j2.xml), Filter=null, ={})
+DEBUG StatusConsoleListener Returning file creation time for C:\Users\CIPL1282\eclipse-workspace\OHRM_orangeHRM\.\logs\automation.log
+DEBUG StatusConsoleListener Starting RollingFileManager ./logs/automation.log
+DEBUG StatusConsoleListener PluginManager 'FileConverter' found 2 plugins
+DEBUG StatusConsoleListener Setting prev file time to 2025-07-04T10:52:29.040+0530
+DEBUG StatusConsoleListener Initializing triggering policy CompositeTriggeringPolicy(policies=[TimeBasedTriggeringPolicy(nextRolloverMillis=0, interval=1, modulate=false), SizeBasedTriggeringPolicy(size=10485760)])
+DEBUG StatusConsoleListener Initializing triggering policy TimeBasedTriggeringPolicy(nextRolloverMillis=0, interval=1, modulate=false)
+DEBUG StatusConsoleListener Initializing triggering policy SizeBasedTriggeringPolicy(size=10485760)
+DEBUG StatusConsoleListener Building Plugin[name=appenders, class=org.apache.logging.log4j.core.config.AppendersPlugin].
+DEBUG StatusConsoleListener createAppenders(={Console, RollingFile})
+DEBUG StatusConsoleListener Building Plugin[name=AppenderRef, class=org.apache.logging.log4j.core.config.AppenderRef].
+DEBUG StatusConsoleListener createAppenderRef(ref="Console", level="null", Filter=null)
+DEBUG StatusConsoleListener Building Plugin[name=AppenderRef, class=org.apache.logging.log4j.core.config.AppenderRef].
+DEBUG StatusConsoleListener createAppenderRef(ref="RollingFile", level="null", Filter=null)
+DEBUG StatusConsoleListener Building Plugin[name=logger, class=org.apache.logging.log4j.core.config.LoggerConfig].
+ERROR StatusConsoleListener Loggers cannot be configured without a name
+DEBUG StatusConsoleListener LoggerConfig$Builder(additivity="false", level="INFO", levelAndRefs="null", name="null", includeLocation="null", ={Console, RollingFile}, ={}, Configuration(C:\Users\CIPL1282\eclipse-workspace\OHRM_orangeHRM\target\test-classes\log4j2.xml), Filter=null)
+ERROR StatusConsoleListener Could not create plugin of type class org.apache.logging.log4j.core.config.LoggerConfig for element Logger
+ org.apache.logging.log4j.core.config.ConfigurationException: Arguments given for element Logger are invalid: field 'loggerName' has invalid value 'null'
+	at org.apache.logging.log4j.core.config.plugins.util.PluginBuilder.injectFields(PluginBuilder.java:199)
+	at org.apache.logging.log4j.core.config.plugins.util.PluginBuilder.build(PluginBuilder.java:123)
+	at org.apache.logging.log4j.core.config.AbstractConfiguration.createPluginObject(AbstractConfiguration.java:1138)
+	at org.apache.logging.log4j.core.config.AbstractConfiguration.createConfiguration(AbstractConfiguration.java:1063)
+	at org.apache.logging.log4j.core.config.AbstractConfiguration.createConfiguration(AbstractConfiguration.java:1055)
+	at org.apache.logging.log4j.core.config.AbstractConfiguration.doConfigure(AbstractConfiguration.java:664)
+	at org.apache.logging.log4j.core.config.AbstractConfiguration.initialize(AbstractConfiguration.java:258)
+	at org.apache.logging.log4j.core.config.AbstractConfiguration.start(AbstractConfiguration.java:304)
+	at org.apache.logging.log4j.core.LoggerContext.setConfiguration(LoggerContext.java:621)
+	at org.apache.logging.log4j.core.LoggerContext.reconfigure(LoggerContext.java:694)
+	at org.apache.logging.log4j.core.LoggerContext.reconfigure(LoggerContext.java:711)
+	at org.apache.logging.log4j.core.LoggerContext.start(LoggerContext.java:253)
+	at org.apache.logging.log4j.core.impl.Log4jContextFactory.getContext(Log4jContextFactory.java:155)
+	at org.apache.logging.log4j.core.impl.Log4jContextFactory.getContext(Log4jContextFactory.java:47)
+	at org.apache.logging.log4j.LogManager.getContext(LogManager.java:196)
+	at org.apache.logging.log4j.LogManager.getLogger(LogManager.java:599)
+	at commons.BaseClass.<clinit>(BaseClass.java:28)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.testng.internal.objects.InstanceCreator.newInstance(InstanceCreator.java:40)
+	at org.testng.ITestObjectFactory.newInstance(ITestObjectFactory.java:18)
+	at org.testng.internal.objects.SimpleObjectDispenser.instantiateUsingDefaultConstructor(SimpleObjectDispenser.java:179)
+	at org.testng.internal.objects.SimpleObjectDispenser.createInstance(SimpleObjectDispenser.java:88)
+	at org.testng.internal.objects.SimpleObjectDispenser.dispense(SimpleObjectDispenser.java:41)
+	at org.testng.internal.objects.GuiceBasedObjectDispenser.dispenseObject(GuiceBasedObjectDispenser.java:41)
+	at org.testng.internal.objects.GuiceBasedObjectDispenser.dispense(GuiceBasedObjectDispenser.java:31)
+	at org.testng.internal.ClassImpl.getDefaultInstance(ClassImpl.java:107)
+	at org.testng.internal.ClassImpl.getObjects(ClassImpl.java:140)
+	at org.testng.internal.IObject.lambda$objects$0(IObject.java:59)
+	at java.base/java.util.Optional.map(Optional.java:260)
+	at org.testng.internal.IObject.objects(IObject.java:59)
+	at org.testng.TestClass.getObjects(TestClass.java:150)
+	at org.testng.TestClass.initTestClassesAndInstances(TestClass.java:126)
+	at org.testng.TestClass.init(TestClass.java:118)
+	at org.testng.TestClass.<init>(TestClass.java:83)
+	at org.testng.TestRunner.initMethods(TestRunner.java:473)
+	at org.testng.TestRunner.init(TestRunner.java:347)
+	at org.testng.TestRunner.init(TestRunner.java:302)
+	at org.testng.TestRunner.<init>(TestRunner.java:176)
+	at org.testng.SuiteRunner$DefaultTestRunnerFactory.newTestRunner(SuiteRunner.java:636)
+	at org.testng.SuiteRunner.<init>(SuiteRunner.java:197)
+	at org.testng.TestNG.createSuiteRunner(TestNG.java:1365)
+	at org.testng.TestNG.createSuiteRunners(TestNG.java:1339)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1199)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+DEBUG StatusConsoleListener Building Plugin[name=AppenderRef, class=org.apache.logging.log4j.core.config.AppenderRef].
+DEBUG StatusConsoleListener createAppenderRef(ref="RollingFile", level="null", Filter=null)
+DEBUG StatusConsoleListener Building Plugin[name=AppenderRef, class=org.apache.logging.log4j.core.config.AppenderRef].
+DEBUG StatusConsoleListener createAppenderRef(ref="Console", level="null", Filter=null)
+DEBUG StatusConsoleListener Building Plugin[name=root, class=org.apache.logging.log4j.core.config.LoggerConfig$RootLogger].
+DEBUG StatusConsoleListener LoggerConfig$RootLogger$Builder(additivity="null", level="INFO", levelAndRefs="null", includeLocation="null", ={RollingFile, Console}, ={}, Configuration(C:\Users\CIPL1282\eclipse-workspace\OHRM_orangeHRM\target\test-classes\log4j2.xml), Filter=null)
+DEBUG StatusConsoleListener Building Plugin[name=loggers, class=org.apache.logging.log4j.core.config.LoggersPlugin].
+ERROR StatusConsoleListener Null object returned for Logger in Loggers.
+DEBUG StatusConsoleListener createLoggers(={, root})
+DEBUG StatusConsoleListener Configuration XmlConfiguration[location=C:\Users\CIPL1282\eclipse-workspace\OHRM_orangeHRM\target\test-classes\log4j2.xml] initialized
+DEBUG StatusConsoleListener Starting configuration XmlConfiguration[location=C:\Users\CIPL1282\eclipse-workspace\OHRM_orangeHRM\target\test-classes\log4j2.xml]
+DEBUG StatusConsoleListener Started configuration XmlConfiguration[location=C:\Users\CIPL1282\eclipse-workspace\OHRM_orangeHRM\target\test-classes\log4j2.xml] OK.
+DEBUG StatusConsoleListener Shutting down OutputStreamManager SYSTEM_OUT.false.false-1
+DEBUG StatusConsoleListener OutputStream closed
+DEBUG StatusConsoleListener Shut down OutputStreamManager SYSTEM_OUT.false.false-1, all resources released: true
+DEBUG StatusConsoleListener Appender DefaultConsole-1 stopped with status true
+DEBUG StatusConsoleListener Stopped org.apache.logging.log4j.core.config.DefaultConfiguration@38b27cdc OK
+DEBUG StatusConsoleListener Registering MBean org.apache.logging.log4j2:type=6d5380c2
+DEBUG StatusConsoleListener Registering MBean org.apache.logging.log4j2:type=6d5380c2,component=StatusLogger
+DEBUG StatusConsoleListener Registering MBean org.apache.logging.log4j2:type=6d5380c2,component=ContextSelector
+DEBUG StatusConsoleListener Registering MBean org.apache.logging.log4j2:type=6d5380c2,component=Loggers,name=
+DEBUG StatusConsoleListener Registering MBean org.apache.logging.log4j2:type=6d5380c2,component=Appenders,name=Console
+DEBUG StatusConsoleListener Registering MBean org.apache.logging.log4j2:type=6d5380c2,component=Appenders,name=RollingFile
+DEBUG StatusConsoleListener org.apache.logging.log4j.core.util.SystemClock supports precise timestamps.
+DEBUG StatusConsoleListener Reconfiguration complete for context[name=6d5380c2] at URI C:\Users\CIPL1282\eclipse-workspace\OHRM_orangeHRM\target\test-classes\log4j2.xml (org.apache.logging.log4j.core.LoggerContext@1ddae9b5) with optional ClassLoader: null
+DEBUG StatusConsoleListener Shutdown hook enabled. Registering a new one.
+DEBUG StatusConsoleListener LoggerContext[name=6d5380c2, org.apache.logging.log4j.core.LoggerContext@1ddae9b5] started OK.
+12:01:50.895 [TestNG-tests-2] INFO  commons.BaseClass - edge browser has been launched successfully.
+12:01:50.935 [TestNG-tests-2] INFO  commons.BaseClass - Navigated to Login page
+12:01:51.047 [TestNG-tests-1] INFO  commons.BaseClass - chrome browser has been launched successfully.
+12:01:51.048 [TestNG-tests-1] INFO  commons.BaseClass - Navigated to Login page
+]]></system-out>
+    <system-err><![CDATA[SLF4J(W): No SLF4J providers were found.
+SLF4J(W): Defaulting to no-operation (NOP) logger implementation
+SLF4J(W): See https://www.slf4j.org/codes.html#noProviders for further details.
+SLF4J(W): Class path contains SLF4J bindings targeting slf4j-api versions 1.7.x or earlier.
+SLF4J(W): Ignoring binding found at [jar:file:/C:/Users/CIPL1282/.m2/repository/org/apache/logging/log4j/log4j-slf4j-impl/2.25.0/log4j-slf4j-impl-2.25.0.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J(W): See https://www.slf4j.org/codes.html#ignoredBindings for an explanation.
+Jul 04, 2025 12:01:46 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 138, returning the closest version; found: 137; Please update to a Selenium version that supports CDP version 138
+Jul 04, 2025 12:01:47 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 138, returning the closest version; found: 137; Please update to a Selenium version that supports CDP version 138
+]]></system-err>
+  </testcase>
+  <testcase name="T001_VerifyLoginPage" classname="testcases.verifyLoginPageTest" time="2.833"/>
+</testsuite>

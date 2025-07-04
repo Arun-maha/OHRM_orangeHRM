@@ -1,0 +1,25 @@
+"10:52:28.996 [TestNG-tests-2] INFO  commons.BaseClass - edge browser has been launched successfully.
+""10:52:29.169 [TestNG-tests-2] INFO  commons.BaseClass - Navigated to Login page
+""10:52:31.612 [TestNG-tests-1] INFO  commons.BaseClass - chrome browser has been launched successfully.
+""10:52:31.615 [TestNG-tests-1] INFO  commons.BaseClass - Navigated to Login page
+""11:17:02.266 [TestNG-tests-2] INFO  commons.BaseClass - edge browser has been launched successfully.
+""11:17:02.351 [TestNG-tests-2] INFO  commons.BaseClass - Navigated to Login page
+""11:17:05.641 [TestNG-tests-1] INFO  commons.BaseClass - chrome browser has been launched successfully.
+""11:17:05.644 [TestNG-tests-1] INFO  commons.BaseClass - Navigated to Login page
+""11:32:18.101 [TestNG-tests-1] INFO  commons.BaseClass - chrome browser has been launched successfully.
+""11:32:18.155 [TestNG-tests-1] INFO  commons.BaseClass - Navigated to Login page
+""11:32:20.257 [TestNG-tests-2] INFO  commons.BaseClass - edge browser has been launched successfully.
+""11:32:20.259 [TestNG-tests-2] INFO  commons.BaseClass - Navigated to Login page
+""11:33:06.601 [TestNG-tests-1] INFO  commons.BaseClass - chrome browser has been launched successfully.
+""11:33:06.659 [TestNG-tests-1] INFO  commons.BaseClass - Navigated to Login page
+""11:33:06.823 [TestNG-tests-2] INFO  commons.BaseClass - edge browser has been launched successfully.
+""11:33:06.825 [TestNG-tests-2] INFO  commons.BaseClass - Navigated to Login page
+""11:37:35.693 [TestNG-tests-2] INFO  commons.BaseClass - edge browser has been launched successfully.
+""11:37:35.747 [TestNG-tests-2] INFO  commons.BaseClass - Navigated to Login page
+""11:37:36.018 [TestNG-tests-1] INFO  commons.BaseClass - chrome browser has been launched successfully.
+""11:37:36.019 [TestNG-tests-1] INFO  commons.BaseClass - Navigated to Login page
+""12:01:50.895 [TestNG-tests-2] INFO  commons.BaseClass - edge browser has been launched successfully.
+""12:01:50.935 [TestNG-tests-2] INFO  commons.BaseClass - Navigated to Login page
+""12:01:51.047 [TestNG-tests-1] INFO  commons.BaseClass - chrome browser has been launched successfully.
+""12:01:51.048 [TestNG-tests-1] INFO  commons.BaseClass - Navigated to Login page
+"

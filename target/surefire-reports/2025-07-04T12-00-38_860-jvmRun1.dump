@@ -1,0 +1,19 @@
+# Created at 2025-07-04T12:00:40.853
+org.apache.maven.surefire.api.testset.TestSetFailedException: Unsupported TestNG [parallel] setting: class
+	at org.apache.maven.surefire.testng.conf.TestNG740Configurator.configureParallel(TestNG740Configurator.java:58)
+	at org.apache.maven.surefire.testng.conf.TestNGMapConfigurator.configure(TestNGMapConfigurator.java:57)
+	at org.apache.maven.surefire.testng.conf.TestNG510Configurator.configure(TestNG510Configurator.java:35)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:124)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:169)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:88)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:137)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+Caused by: java.lang.IllegalArgumentException: No enum constant org.testng.xml.XmlSuite.ParallelMode.CLASS
+	at java.base/java.lang.Enum.valueOf(Enum.java:273)
+	at org.apache.maven.surefire.testng.conf.TestNG740Configurator.configureParallel(TestNG740Configurator.java:55)
+	... 10 more
+
+
